@@ -1,0 +1,201 @@
+01:18 200M and headword translations finished:   136003 strings,    33542 headwords
+33414 of 33944 headwords have Kannada equivalents
+  abandon ['ತ್ಯಜಿಸು', 'ನಿಲ್ಲಿಸು']
+  beautiful ['ಸುಂದರ']
+  run ['ಓಡು', 'ಹರಿ', 'ಪರಿ']
+  house ['ಮನೆ']
+  happy ['ಖುಷಿಯಾಗಿ']
+  be ['ಆಗಿರಲಿ', 'ಇಲ್ಲ', 'ಒಳ್']
+  certain ['ಖಚಿತವಾಗಿ', 'ಒಂದು', 'ಖಂಡಿತ']
+  book ['ಪುಸ್ತಕ']
+  water ['ನೀರು']
+  love ['ಪ್ರೀತಿಸು']
+  time ['ಸಮಯ', 'ಬಾರಿ', 'ಅವಸರ']
+{"entries": 34159, "with_kannada": 34159, "defs": 62002, "defs_kn": 62002, "ex": 73069, "ex_kn": 73069, "gloss": 33484, "merged": 101}
+Preparing /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada
+  Generating CollinsKannada.idx.oft ... 4322 bytes
+  Generating CollinsKannada.syn.oft ... 1514 bytes
+  Generating CollinsKannada.idx.oft.cspt ... 42852 bytes
+  Generating CollinsKannada.syn.oft.cspt ... 14772 bytes
+  Done. 4 step(s) completed.
+  Output: /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada
+128340 distinct Kannada words: 128021 identical to HarfBuzz, 319 differ
+word occurrences in translations: 1346704, affected: 480 (0.036%)
+  differs: ಸ್ಕ್ವ್ಯಾಷ್ 13
+  differs: ಎಕ್ಸ್ಪ್ರೆಸ್ 11
+  differs: ಮೆರ್ರಿ 10
+  differs: ಸ್ಕ್ರ್ಯಾಪ್ 9
+  differs: ಚೆರ್ರಿ 8
+  differs: ಟೆರ್ರಿ 8
+  differs: ಆರ್ಮ್ಸ್ಟ್ರಾಂಗ್ 7
+  differs: ವಿಂಡ್ಸ್ಕ್ರೀನ್ 7
+  differs: ಹೆರ್ರಿಂಗ್ 7
+  differs: ಪೋಸ್ಟ್ಮ್ಯಾನ್ 6
+  differs: ಫೆರ್ರಿಸ್ 6
+  differs: ಶೆರ್ರಿ 6
+  differs: ಎಕ್ಸ್ಟ್ರಾಕ್ಟರ್ 5
+  differs: ಜೆರ್ರಿ 5
+  differs: ಮರ್ರೆ 5
+  differs: ಮೆನ್ಸ್ಟ್ರುವಲ್ 5
+  differs: ಸ್ಕ್ವ್ಯಾಶ್ 5
+  differs: ಚೆರ್ರಿಗಳು 4
+  differs: ಬಿಯರ್ಅನ್ನು 4
+  differs: ಸನ್ಸ್ಕ್ರೀನ್ 4
+  differs: ಸ್ಕ್ರ್ಯಾಬಲ್ 4
+  differs: ಹೈಪರ್ಆಕ್ಟಿವಿಟಿ 4
+  differs: ಎಕ್ಸ್ಕ್ಲೂಸಿವ್ 3
+  differs: ಎಕ್ಸ್ಟ್ರಾ 3
+  differs: ಕಾರಿಡಾರ್ಅನ್ನು 3
+/Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output:
+total 26776
+drwxr-xr-x@  7 ashok  staff       224 Oct 14 01:18 .
+drwx------@  5 ashok  staff       160 Oct 13 21:22 ..
+drwxr-xr-x@ 10 ashok  staff       320 Oct 14 01:18 CollinsKannada
+-rw-r--r--@  1 ashok  staff  13161266 Oct 14 01:18 CollinsKannada.zip
+-rw-r--r--@  1 ashok  staff      3336 Oct 13 21:23 README.md
+drwxr-xr-x@  4 ashok  staff       128 Oct 13 21:22 firmware
+-rw-r--r--@  1 ashok  staff      1238 Oct 14 01:18 shaping-report.txt
+
+/Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada:
+total 119056
+drwxr-xr-x@ 10 ashok  staff       320 Oct 14 01:18 .
+drwxr-xr-x@  7 ashok  staff       224 Oct 14 01:18 ..
+-rw-r--r--@  1 ashok  staff  60148257 Oct 14 01:18 CollinsKannada.dict
+-rw-r--r--@  1 ashok  staff    598792 Oct 14 01:18 CollinsKannada.idx
+-rw-r--r--@  1 ashok  staff      4322 Oct 14 01:18 CollinsKannada.idx.oft
+-rw-r--r--@  1 ashok  staff     42852 Oct 14 01:18 CollinsKannada.idx.oft.cspt
+-rw-r--r--@  1 ashok  staff       394 Oct 14 01:18 CollinsKannada.ifo
+-rw-r--r--@  1 ashok  staff    123661 Oct 14 01:18 CollinsKannada.syn
+-rw-r--r--@  1 ashok  staff      1514 Oct 14 01:18 CollinsKannada.syn.oft
+-rw-r--r--@  1 ashok  staff     14772 Oct 14 01:18 CollinsKannada.syn.oft.cspt
+01:18 v1 dictionary built
+01:18 starting 1B model
+04:15 stopped 1B model for back-translation check
+04:15 1B model stopped:    74240 strings
+23500 of 33944 headwords have Kannada equivalents
+  abandon ['ತ್ಯಜಿಸು', 'ನಿಲ್ಲಿಸು']
+  beautiful ['ಸುಂದರ']
+  run ['ಓಡು', 'ಹರಿ', 'ಪರಿ']
+  house ['ಮನೆ']
+  happy ['ಖುಷಿಯಾಗಿ']
+  be ['ಆಗಿರಲಿ', 'ಇಲ್ಲ']
+  certain ['ಖಚಿತವಾಗಿ', 'ಒಂದು', 'ಖಂಡಿತ']
+  book ['ಪುಸ್ತಕ']
+  water ['ನೀರು']
+  love ['ಪ್ರೀತಿಸು']
+  time ['ಸಮಯ', 'ಬಾರಿ', 'ಅವಸರ']
+74240 1B translations, 54832 differ from 200M; 109591 to back-translate
+2048/109591  26.2/s  eta 1.1 h
+4096/109591  21.4/s  eta 1.4 h
+6144/109591  20.0/s  eta 1.4 h
+8192/109591  21.1/s  eta 1.3 h
+10240/109591  20.5/s  eta 1.3 h
+12288/109591  19.8/s  eta 1.4 h
+14336/109591  20.4/s  eta 1.3 h
+16384/109591  20.2/s  eta 1.3 h
+18432/109591  19.8/s  eta 1.3 h
+20480/109591  20.1/s  eta 1.2 h
+22528/109591  20.1/s  eta 1.2 h
+24576/109591  19.8/s  eta 1.2 h
+26624/109591  19.9/s  eta 1.2 h
+28672/109591  19.8/s  eta 1.1 h
+30720/109591  19.6/s  eta 1.1 h
+32768/109591  19.8/s  eta 1.1 h
+34816/109591  19.8/s  eta 1.0 h
+36864/109591  19.8/s  eta 1.0 h
+38912/109591  19.8/s  eta 1.0 h
+40960/109591  19.9/s  eta 1.0 h
+43008/109591  19.8/s  eta 0.9 h
+45056/109591  19.8/s  eta 0.9 h
+47104/109591  20.0/s  eta 0.9 h
+49152/109591  20.0/s  eta 0.8 h
+51200/109591  19.8/s  eta 0.8 h
+53248/109591  20.0/s  eta 0.8 h
+55296/109591  20.0/s  eta 0.8 h
+57344/109591  19.9/s  eta 0.7 h
+59392/109591  20.0/s  eta 0.7 h
+61440/109591  20.0/s  eta 0.7 h
+63488/109591  19.9/s  eta 0.6 h
+65536/109591  19.9/s  eta 0.6 h
+67584/109591  20.0/s  eta 0.6 h
+69632/109591  19.9/s  eta 0.6 h
+71680/109591  19.9/s  eta 0.5 h
+73728/109591  20.0/s  eta 0.5 h
+75776/109591  19.9/s  eta 0.5 h
+77824/109591  19.7/s  eta 0.4 h
+79872/109591  19.8/s  eta 0.4 h
+81920/109591  19.8/s  eta 0.4 h
+83968/109591  19.7/s  eta 0.4 h
+86016/109591  19.8/s  eta 0.3 h
+88064/109591  19.7/s  eta 0.3 h
+90112/109591  19.6/s  eta 0.3 h
+92160/109591  19.7/s  eta 0.2 h
+94208/109591  19.6/s  eta 0.2 h
+96256/109591  19.6/s  eta 0.2 h
+98304/109591  19.7/s  eta 0.2 h
+100352/109591  19.6/s  eta 0.1 h
+102400/109591  19.6/s  eta 0.1 h
+104448/109591  19.6/s  eta 0.1 h
+106496/109591  19.5/s  eta 0.0 h
+108544/109591  19.5/s  eta 0.0 h
+109591/109591  19.5/s  eta 0.0 h
+kept 1B for 56938, 200M for 17302 (of 74240 strings the 1B model translated)
+{"entries": 34159, "with_kannada": 34154, "defs": 62002, "defs_kn": 62002, "ex": 73069, "ex_kn": 73069, "gloss": 23566, "merged": 101}
+Preparing /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada
+  Generating CollinsKannada.idx.oft ... 4322 bytes
+  Generating CollinsKannada.syn.oft ... 1514 bytes
+  Generating CollinsKannada.idx.oft.cspt ... 42852 bytes
+  Generating CollinsKannada.syn.oft.cspt ... 14772 bytes
+  Done. 4 step(s) completed.
+  Output: /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada
+135623 distinct Kannada words: 135285 identical to HarfBuzz, 338 differ
+word occurrences in translations: 2064387, affected: 717 (0.035%)
+  differs: ಎಕ್ಸ್ಪ್ರೆಸ್ 22
+  differs: ಸ್ಕ್ವ್ಯಾಷ್ 16
+  differs: ಚೆರ್ರಿ 14
+  differs: ಆರ್ಮ್ಸ್ಟ್ರಾಂಗ್ 12
+  differs: ಮೆರ್ರಿ 12
+  differs: ಸ್ಕ್ರ್ಯಾಪ್ 12
+  differs: ಟೆರ್ರಿ 11
+  differs: ಫೆರ್ರಿಸ್ 9
+  differs: ವಿಂಡ್ಸ್ಕ್ರೀನ್ 9
+  differs: ಶೆರ್ರಿ 8
+  differs: ಚೆರ್ರಿಗಳು 7
+  differs: ಜೆರ್ರಿ 7
+  differs: ಪೋಸ್ಟ್ಮ್ಯಾನ್ 7
+  differs: ಬ್ಯಾಕ್ಸ್ಟ್ರೋಕ್ 7
+  differs: ಮರ್ರೆ 7
+  differs: ಮುರ್ರೆ 7
+  differs: ಹೆರ್ರಿಂಗ್ 7
+  differs: ಎಕ್ಸ್ಟ್ರಾಕ್ಟರ್ 6
+  differs: ಡ್ರಾಯರ್ಅನ್ನು 6
+  differs: ಬಿಯರ್ಅನ್ನು 6
+  differs: ಸನ್ಸ್ಕ್ರೀನ್ 6
+  differs: ಸ್ಕ್ವ್ಯಾಶ್ 6
+  differs: ಹೈಪರ್ಆಕ್ಟಿವಿಟಿ 6
+  differs: ಕಾಲರ್ಅನ್ನು 5
+  differs: ಮಿಡಲ್ಸ್ಬ್ರೊ 5
+/Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output:
+total 52872
+drwxr-xr-x@  8 ashok  staff       256 Oct 14 05:50 .
+drwx------@  5 ashok  staff       160 Oct 13 21:22 ..
+drwxr-xr-x@ 10 ashok  staff       320 Oct 14 05:50 CollinsKannada
+-rw-r--r--@  1 ashok  staff  13161266 Oct 14 01:18 CollinsKannada-200M.zip
+-rw-r--r--@  1 ashok  staff  13102201 Oct 14 05:50 CollinsKannada.zip
+-rw-r--r--@  1 ashok  staff      3809 Oct 14 01:32 README.md
+drwxr-xr-x@  4 ashok  staff       128 Oct 13 21:22 firmware
+-rw-r--r--@  1 ashok  staff      1224 Oct 14 05:50 shaping-report.txt
+
+/Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/CollinsKannada:
+total 118072
+drwxr-xr-x@ 10 ashok  staff       320 Oct 14 05:50 .
+drwxr-xr-x@  8 ashok  staff       256 Oct 14 05:50 ..
+-rw-r--r--@  1 ashok  staff  59643528 Oct 14 05:50 CollinsKannada.dict
+-rw-r--r--@  1 ashok  staff    598792 Oct 14 05:50 CollinsKannada.idx
+-rw-r--r--@  1 ashok  staff      4322 Oct 14 05:50 CollinsKannada.idx.oft
+-rw-r--r--@  1 ashok  staff     42852 Oct 14 05:50 CollinsKannada.idx.oft.cspt
+-rw-r--r--@  1 ashok  staff       394 Oct 14 05:50 CollinsKannada.ifo
+-rw-r--r--@  1 ashok  staff    123661 Oct 14 05:50 CollinsKannada.syn
+-rw-r--r--@  1 ashok  staff      1514 Oct 14 05:50 CollinsKannada.syn.oft
+-rw-r--r--@  1 ashok  staff     14772 Oct 14 05:50 CollinsKannada.syn.oft.cspt
+05:50 final dictionary built

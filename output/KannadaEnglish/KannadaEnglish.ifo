@@ -1,0 +1,9 @@
+StarDict's dict ifo file
+version=2.4.2
+wordcount=133298
+idxfilesize=5013041
+bookname=Kannada-English (KEED + Wiktionary + Collins)
+lang=kn-en
+author=N. Učida & B. B. Rajapurohit (KEED, CC BY-NC 4.0); Wiktionary (CC BY-SA 4.0); HarperCollins (Collins COBUILD); Kannada by IndicTrans2 (AI4Bharat)
+description=Kannada headwords with English and Kannada meanings and examples in both languages.
+sametypesequence=h

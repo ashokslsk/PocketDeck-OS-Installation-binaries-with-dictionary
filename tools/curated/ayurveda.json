@@ -1,0 +1,392 @@
+[
+{
+"kn": "ಆಯುರ್ವೇದ",
+"tr": "āyurvēda",
+"pos": "n.",
+"en_term": "Ayurveda",
+"kn_def": "(ಆಯುರ್ವೇದ) ಭಾರತದ ಪ್ರಾಚೀನ ವೈದ್ಯಶಾಸ್ತ್ರ; ಆಹಾರ, ಜೀವನಶೈಲಿ, ಗಿಡಮೂಲಿಕೆ ಮತ್ತು ದೇಹದ ದೋಷಗಳ ಸಮತೋಲನದ ಮೂಲಕ ಆರೋಗ್ಯ ಕಾಪಾಡುತ್ತದೆ. (‘ಆಯುಸ್ಸಿನ ವೇದ’)",
+"en": "(Ayurveda) India's traditional system of medicine, which maintains health through diet, lifestyle, herbs and the balance of the body's doshas. ('Knowledge of life.')",
+"kn_ex": "ಅಜ್ಜಿ ಆಯುರ್ವೇದ ಮನೆಮದ್ದುಗಳನ್ನು ಬಲ್ಲವರು.",
+"en_ex": "Grandmother knows Ayurvedic home remedies."
+},
+{
+"kn": "ದೋಷ",
+"tr": "dōṣa",
+"pos": "n.",
+"en_term": "dosha",
+"kn_def": "(ಆಯುರ್ವೇದ) ದೇಹದ ಕಾರ್ಯಗಳನ್ನು ನಿಯಂತ್ರಿಸುವ ಮೂರು ಮೂಲತತ್ತ್ವಗಳು: ವಾತ, ಪಿತ್ತ, ಕಫ; ಇವುಗಳ ಅಸಮತೋಲನ ರೋಗಕ್ಕೆ ಕಾರಣ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ತಪ್ಪು, ಕುಂದು)",
+"en": "(Ayurveda) Each of the three principles that govern the body's functions: vata, pitta and kapha; their imbalance causes disease. (General meaning: fault, defect.)",
+"kn_ex": "ವೈದ್ಯರು ನನ್ನ ದೇಹದಲ್ಲಿ ಪಿತ್ತ ದೋಷ ಹೆಚ್ಚಿದೆ ಎಂದರು.",
+"en_ex": "The doctor said the pitta dosha in my body has increased."
+},
+{
+"kn": "ವಾತ",
+"tr": "vāta",
+"pos": "n.",
+"en_term": "vata",
+"kn_def": "(ಆಯುರ್ವೇದ) ಗಾಳಿ ಮತ್ತು ಆಕಾಶ ತತ್ತ್ವಗಳಿಂದಾದ ದೋಷ; ಚಲನೆ, ಉಸಿರಾಟ, ನರಗಳ ಕಾರ್ಯವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಹೆಚ್ಚಾದರೆ ಒಣಚರ್ಮ, ಕೀಲುನೋವು, ಆತಂಕ.",
+"en": "(Ayurveda) The dosha made of air and space; it governs movement, breathing and the nerves. In excess it causes dry skin, joint pain and anxiety.",
+"kn_ex": "ಚಳಿಗಾಲದಲ್ಲಿ ವಾತ ಹೆಚ್ಚಾಗುತ್ತದೆ ಎನ್ನುತ್ತಾರೆ.",
+"en_ex": "Vata is said to increase in winter."
+},
+{
+"kn": "ಪಿತ್ತ",
+"tr": "pitta",
+"pos": "n.",
+"en_term": "pitta",
+"kn_def": "(ಆಯುರ್ವೇದ) ಅಗ್ನಿ ಮತ್ತು ಜಲ ತತ್ತ್ವಗಳಿಂದಾದ ದೋಷ; ಜೀರ್ಣಕ್ರಿಯೆ, ದೇಹದ ಉಷ್ಣತೆ, ಚಯಾಪಚಯವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಹೆಚ್ಚಾದರೆ ಎದೆಯುರಿ, ಸಿಟ್ಟು, ಚರ್ಮದ ಉರಿ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಪಿತ್ತರಸ)",
+"en": "(Ayurveda) The dosha made of fire and water; it governs digestion, body heat and metabolism. In excess it causes acidity, irritability and skin inflammation. (General meaning: bile.)",
+"kn_ex": "ಖಾರ ತಿಂದರೆ ಅವನಿಗೆ ಪಿತ್ತ ಏರುತ್ತದೆ.",
+"en_ex": "Spicy food aggravates his pitta."
+},
+{
+"kn": "ಕಫ",
+"tr": "kapha",
+"pos": "n.",
+"en_term": "kapha",
+"kn_def": "(ಆಯುರ್ವೇದ) ಭೂಮಿ ಮತ್ತು ಜಲ ತತ್ತ್ವಗಳಿಂದಾದ ದೋಷ; ದೇಹದ ರಚನೆ, ಸ್ಥಿರತೆ, ಕೀಲುಗಳ ತೇವವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಹೆಚ್ಚಾದರೆ ಶೀತ, ಕೆಮ್ಮು, ಆಲಸ್ಯ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಲೋಳೆ)",
+"en": "(Ayurveda) The dosha made of earth and water; it governs the body's structure, stability and lubrication. In excess it causes colds, cough and sluggishness. (General meaning: phlegm.)",
+"kn_ex": "ಮಳೆಗಾಲದಲ್ಲಿ ಕಫ ಹೆಚ್ಚಾಗಿ ಶೀತ ಬರುತ್ತದೆ.",
+"en_ex": "In the rainy season kapha increases and colds follow."
+},
+{
+"kn": "ತ್ರಿದೋಷ",
+"tr": "tridōṣa",
+"pos": "n.",
+"en_term": "tridosha",
+"kn_def": "(ಆಯುರ್ವೇದ) ವಾತ, ಪಿತ್ತ, ಕಫ ಎಂಬ ಮೂರು ದೋಷಗಳು ಒಟ್ಟಾಗಿ; ಇವುಗಳ ಸಮತೋಲನವೇ ಆರೋಗ್ಯ ಎಂಬ ಆಯುರ್ವೇದದ ಮೂಲ ಸಿದ್ಧಾಂತ.",
+"en": "(Ayurveda) The three doshas, vata, pitta and kapha, together; the core Ayurvedic theory that health is their balance.",
+"kn_ex": "ತ್ರಿದೋಷ ಸಿದ್ಧಾಂತ ಆಯುರ್ವೇದದ ಅಡಿಪಾಯ.",
+"en_ex": "The tridosha theory is the foundation of Ayurveda."
+},
+{
+"kn": "ಪ್ರಕೃತಿ",
+"tr": "prakr̥ti",
+"pos": "n.",
+"en_term": "prakriti",
+"kn_def": "(ಆಯುರ್ವೇದ) ಹುಟ್ಟಿನಿಂದಲೇ ಬಂದ ವ್ಯಕ್ತಿಯ ದೇಹ-ಮನಸ್ಸಿನ ಸ್ವಭಾವ, ಯಾವ ದೋಷ ಪ್ರಧಾನ ಎಂಬುದರ ಮೇಲೆ ನಿರ್ಧಾರ (ವಾತ, ಪಿತ್ತ, ಕಫ ಪ್ರಕೃತಿ). (ಸಾಮಾನ್ಯ ಅರ್ಥ: ನಿಸರ್ಗ)",
+"en": "(Ayurveda) A person's inborn constitution of body and mind, defined by which dosha dominates (vata, pitta or kapha type). (General meaning: nature.)",
+"kn_ex": "ಪಿತ್ತ ಪ್ರಕೃತಿಯವರು ತಂಪು ಆಹಾರ ಸೇವಿಸಬೇಕು.",
+"en_ex": "People of pitta constitution should eat cooling food."
+},
+{
+"kn": "ಧಾತು",
+"tr": "dhātu",
+"pos": "n.",
+"en_term": "dhatu",
+"kn_def": "(ಆಯುರ್ವೇದ) ದೇಹವನ್ನು ರೂಪಿಸುವ ಏಳು ಅಂಗಾಂಶಗಳು: ರಸ, ರಕ್ತ, ಮಾಂಸ, ಮೇದಸ್ಸು, ಅಸ್ಥಿ, ಮಜ್ಜೆ, ಶುಕ್ರ.",
+"en": "(Ayurveda) The seven tissues that build the body: plasma, blood, muscle, fat, bone, marrow and reproductive tissue.",
+"kn_ex": "ಪೌಷ್ಟಿಕ ಆಹಾರ ಎಲ್ಲ ಧಾತುಗಳನ್ನು ಪೋಷಿಸುತ್ತದೆ.",
+"en_ex": "Nourishing food strengthens all the dhatus."
+},
+{
+"kn": "ಅಗ್ನಿ",
+"tr": "agni",
+"pos": "n.",
+"en_term": "agni (digestive fire)",
+"kn_def": "(ಆಯುರ್ವೇದ) ಜೀರ್ಣಶಕ್ತಿ, ಜಠರಾಗ್ನಿ; ಆಹಾರವನ್ನು ಜೀರ್ಣಿಸಿ ಪೋಷಣೆಯಾಗಿ ಮಾರ್ಪಡಿಸುವ ಶಕ್ತಿ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಬೆಂಕಿ)",
+"en": "(Ayurveda) Digestive fire: the power that digests food and turns it into nourishment. (General meaning: fire.)",
+"kn_ex": "ಅಗ್ನಿ ಮಂದವಾದರೆ ಹಸಿವು ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+"en_ex": "When agni is weak, appetite falls."
+},
+{
+"kn": "ಆಮ",
+"tr": "āma",
+"pos": "n.",
+"en_term": "ama",
+"kn_def": "(ಆಯುರ್ವೇದ) ಸರಿಯಾಗಿ ಜೀರ್ಣವಾಗದ ಆಹಾರದಿಂದ ದೇಹದಲ್ಲಿ ಉಳಿಯುವ ವಿಷಕಾರಿ ಅಂಶ; ಅನೇಕ ರೋಗಗಳ ಮೂಲ ಎಂದು ಪರಿಗಣನೆ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಹಸಿ, ಬೇಯದ)",
+"en": "(Ayurveda) Toxic residue left in the body by poorly digested food, regarded as the root of many diseases. (General meaning: raw, unripe.)",
+"kn_ex": "ಉಪವಾಸ ಆಮವನ್ನು ಕರಗಿಸುತ್ತದೆ ಎನ್ನುತ್ತಾರೆ.",
+"en_ex": "Fasting is said to dissolve ama."
+},
+{
+"kn": "ಓಜಸ್ಸು",
+"tr": "ōjassu",
+"pos": "n.",
+"en_term": "ojas",
+"kn_def": "(ಆಯುರ್ವೇದ) ಎಲ್ಲ ಧಾತುಗಳ ಸಾರವಾದ ಜೀವಶಕ್ತಿ; ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಮತ್ತು ತೇಜಸ್ಸಿನ ಆಧಾರ.",
+"en": "(Ayurveda) The vital essence of all the tissues; the basis of immunity and vitality.",
+"kn_ex": "ಸಾಕಷ್ಟು ನಿದ್ರೆ ಓಜಸ್ಸನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+"en_ex": "Enough sleep increases ojas."
+},
+{
+"kn": "ಪಂಚಕರ್ಮ",
+"tr": "paṃcakarma",
+"pos": "n.",
+"en_term": "panchakarma",
+"kn_def": "(ಆಯುರ್ವೇದ) ದೇಹವನ್ನು ಶುದ್ಧೀಕರಿಸುವ ಐದು ಚಿಕಿತ್ಸೆಗಳು: ವಮನ, ವಿರೇಚನ, ಬಸ್ತಿ, ನಸ್ಯ, ರಕ್ತಮೋಕ್ಷಣ.",
+"en": "(Ayurveda) The five cleansing therapies: vamana (therapeutic vomiting), virechana (purgation), basti (enema), nasya (nasal medication) and raktamokshana (bloodletting).",
+"kn_ex": "ಅವರು ಕೇರಳದಲ್ಲಿ ಪಂಚಕರ್ಮ ಚಿಕಿತ್ಸೆ ಪಡೆದರು.",
+"en_ex": "They underwent panchakarma treatment in Kerala."
+},
+{
+"kn": "ವಮನ",
+"tr": "vamana",
+"pos": "n.",
+"en_term": "vamana",
+"kn_def": "(ಆಯುರ್ವೇದ) ಔಷಧಿಯಿಂದ ವಾಂತಿ ಮಾಡಿಸಿ ಕಫವನ್ನು ಹೊರಹಾಕುವ ಪಂಚಕರ್ಮ ಚಿಕಿತ್ಸೆ.",
+"en": "(Ayurveda) Therapeutic vomiting induced by medicine to expel excess kapha; one of the panchakarma therapies.",
+"kn_ex": "ಕಫ ದೋಷಕ್ಕೆ ವಮನ ಸೂಚಿಸಲಾಗುತ್ತದೆ.",
+"en_ex": "Vamana is advised for kapha imbalance."
+},
+{
+"kn": "ವಿರೇಚನ",
+"tr": "virēcana",
+"pos": "n.",
+"en_term": "virechana",
+"kn_def": "(ಆಯುರ್ವೇದ) ಔಷಧಿಯಿಂದ ಭೇದಿ ಮಾಡಿಸಿ ಪಿತ್ತವನ್ನು ಹೊರಹಾಕುವ ಪಂಚಕರ್ಮ ಚಿಕಿತ್ಸೆ.",
+"en": "(Ayurveda) Therapeutic purgation to expel excess pitta; one of the panchakarma therapies.",
+"kn_ex": "ವಿರೇಚನದ ನಂತರ ಲಘು ಆಹಾರ ಸೇವಿಸಬೇಕು.",
+"en_ex": "Light food should be eaten after virechana."
+},
+{
+"kn": "ಬಸ್ತಿ",
+"tr": "basti",
+"pos": "n.",
+"en_term": "basti",
+"kn_def": "(ಆಯುರ್ವೇದ) ಔಷಧೀಯ ತೈಲ ಅಥವಾ ಕಷಾಯದಿಂದ ಮಾಡುವ ಎನಿಮಾ ಚಿಕಿತ್ಸೆ; ವಾತ ದೋಷಕ್ಕೆ ಮುಖ್ಯ.",
+"en": "(Ayurveda) Enema therapy with medicated oil or decoction, the main treatment for vata disorders.",
+"kn_ex": "ಬೆನ್ನುನೋವಿಗೆ ವೈದ್ಯರು ಬಸ್ತಿ ಚಿಕಿತ್ಸೆ ಸೂಚಿಸಿದರು.",
+"en_ex": "The doctor advised basti for the back pain."
+},
+{
+"kn": "ನಸ್ಯ",
+"tr": "nasya",
+"pos": "n.",
+"en_term": "nasya",
+"kn_def": "(ಆಯುರ್ವೇದ) ಮೂಗಿನ ಮೂಲಕ ಔಷಧೀಯ ತೈಲ ಅಥವಾ ಪುಡಿಯನ್ನು ನೀಡುವ ಚಿಕಿತ್ಸೆ; ತಲೆ, ಮೂಗು, ಗಂಟಲಿನ ರೋಗಗಳಿಗೆ.",
+"en": "(Ayurveda) Giving medicated oil or powder through the nose, for diseases of the head, nose and throat.",
+"kn_ex": "ಸೈನಸ್ ತೊಂದರೆಗೆ ನಸ್ಯ ಉಪಯುಕ್ತ.",
+"en_ex": "Nasya is useful for sinus trouble."
+},
+{
+"kn": "ಅಭ್ಯಂಗ",
+"tr": "abhyaṃga",
+"pos": "n.",
+"en_term": "abhyanga",
+"kn_def": "(ಆಯುರ್ವೇದ) ಬೆಚ್ಚಗಿನ ಔಷಧೀಯ ತೈಲದಿಂದ ಇಡೀ ದೇಹಕ್ಕೆ ಮಾಡುವ ಮಸಾಜ್; ಎಣ್ಣೆ ಸ್ನಾನ.",
+"en": "(Ayurveda) Full-body massage with warm medicated oil; an oil bath.",
+"kn_ex": "ದೀಪಾವಳಿಯಂದು ಅಭ್ಯಂಗ ಸ್ನಾನ ಮಾಡುವುದು ಸಂಪ್ರದಾಯ.",
+"en_ex": "Taking an oil bath on Deepavali is a tradition."
+},
+{
+"kn": "ಶಿರೋಧಾರಾ",
+"tr": "śirōdhārā",
+"pos": "n.",
+"en_term": "shirodhara",
+"kn_def": "(ಆಯುರ್ವೇದ) ಹಣೆಯ ಮೇಲೆ ಬೆಚ್ಚಗಿನ ತೈಲ, ಹಾಲು ಅಥವಾ ಕಷಾಯವನ್ನು ನಿರಂತರ ಧಾರೆಯಾಗಿ ಸುರಿಯುವ ಚಿಕಿತ್ಸೆ; ಒತ್ತಡ, ನಿದ್ರಾಹೀನತೆಗೆ.",
+"en": "(Ayurveda) A treatment in which warm oil, milk or decoction is poured in a steady stream on the forehead, used for stress and insomnia.",
+"kn_ex": "ಶಿರೋಧಾರಾದ ನಂತರ ಅವನಿಗೆ ಚೆನ್ನಾಗಿ ನಿದ್ರೆ ಬಂತು.",
+"en_ex": "He slept well after shirodhara."
+},
+{
+"kn": "ಕಷಾಯ",
+"tr": "kaṣāya",
+"pos": "n.",
+"en_term": "kashaya (decoction)",
+"kn_def": "(ಆಯುರ್ವೇದ) ಗಿಡಮೂಲಿಕೆಗಳನ್ನು ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ ತಯಾರಿಸುವ ಔಷಧೀಯ ಪಾನೀಯ. (ರುಚಿಯ ಹೆಸರಾಗಿ: ಒಗರು)",
+"en": "(Ayurveda) A medicinal decoction made by boiling herbs in water. (As a taste: astringent.)",
+"kn_ex": "ಶೀತವಾದಾಗ ಅಮ್ಮ ಶುಂಠಿ ಕಷಾಯ ಮಾಡಿಕೊಡುತ್ತಾರೆ.",
+"en_ex": "When I have a cold, Mother makes ginger kashaya."
+},
+{
+"kn": "ಚೂರ್ಣ",
+"tr": "cūrṇa",
+"pos": "n.",
+"en_term": "churna",
+"kn_def": "(ಆಯುರ್ವೇದ) ಒಣಗಿಸಿದ ಗಿಡಮೂಲಿಕೆಗಳನ್ನು ಪುಡಿಮಾಡಿ ತಯಾರಿಸುವ ಔಷಧ.",
+"en": "(Ayurveda) A medicine made of finely powdered dried herbs.",
+"kn_ex": "ರಾತ್ರಿ ಮಲಗುವ ಮುನ್ನ ತ್ರಿಫಲಾ ಚೂರ್ಣ ತೆಗೆದುಕೊಳ್ಳಿ.",
+"en_ex": "Take triphala churna before bed."
+},
+{
+"kn": "ಅರಿಷ್ಟ",
+"tr": "ariṣṭa",
+"pos": "n.",
+"en_term": "arishta",
+"kn_def": "(ಆಯುರ್ವೇದ) ಗಿಡಮೂಲಿಕೆಗಳ ಕಷಾಯವನ್ನು ಹುದುಗಿಸಿ ತಯಾರಿಸುವ ಔಷಧ; ಉದಾ. ದಶಮೂಲಾರಿಷ್ಟ.",
+"en": "(Ayurveda) A medicine made by fermenting a herbal decoction, such as dashamoolarishta.",
+"kn_ex": "ಹೆರಿಗೆಯ ನಂತರ ದಶಮೂಲಾರಿಷ್ಟ ಕೊಡುವ ಪದ್ಧತಿ ಇದೆ.",
+"en_ex": "There is a custom of giving dashamoolarishta after childbirth."
+},
+{
+"kn": "ಭಸ್ಮ",
+"tr": "bhasma",
+"pos": "n.",
+"en_term": "bhasma",
+"kn_def": "(ಆಯುರ್ವೇದ) ಲೋಹ ಅಥವಾ ಖನಿಜಗಳನ್ನು ವಿಶೇಷ ವಿಧಾನದಲ್ಲಿ ಸುಟ್ಟು ತಯಾರಿಸುವ ಔಷಧೀಯ ಬೂದಿ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಬೂದಿ)",
+"en": "(Ayurveda) Medicinal ash made by specially calcining metals or minerals. (General meaning: ash.)",
+"kn_ex": "ಭಸ್ಮಗಳನ್ನು ವೈದ್ಯರ ಸಲಹೆಯಿಲ್ಲದೆ ಸೇವಿಸಬಾರದು.",
+"en_ex": "Bhasmas should not be taken without a doctor's advice."
+},
+{
+"kn": "ಘೃತ",
+"tr": "ghr̥ta",
+"pos": "n.",
+"en_term": "ghrita (medicated ghee)",
+"kn_def": "(ಆಯುರ್ವೇದ) ತುಪ್ಪ; ಗಿಡಮೂಲಿಕೆಗಳನ್ನು ಸೇರಿಸಿ ತಯಾರಿಸಿದ ಔಷಧೀಯ ತುಪ್ಪ (ಉದಾ. ಬ್ರಾಹ್ಮೀ ಘೃತ).",
+"en": "(Ayurveda) Ghee; medicated ghee prepared with herbs (e.g. brahmi ghrita).",
+"kn_ex": "ನೆನಪಿನ ಶಕ್ತಿಗೆ ಬ್ರಾಹ್ಮೀ ಘೃತ ಕೊಡುತ್ತಾರೆ.",
+"en_ex": "Brahmi ghrita is given for memory."
+},
+{
+"kn": "ರಸಾಯನ",
+"tr": "rasāyana",
+"pos": "n.",
+"en_term": "rasayana",
+"kn_def": "(ಆಯುರ್ವೇದ) ಆಯುಸ್ಸು, ಶಕ್ತಿ ಮತ್ತು ರೋಗನಿರೋಧಕತೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಪುನಶ್ಚೇತನ ಚಿಕಿತ್ಸೆ ಅಥವಾ ಔಷಧ; ಉದಾ. ಚ್ಯವನಪ್ರಾಶ. (ಆಧುನಿಕ ಅರ್ಥ: ರಸಾಯನಶಾಸ್ತ್ರ)",
+"en": "(Ayurveda) Rejuvenating therapy or medicine that promotes longevity, strength and immunity, such as chyawanprash. (Modern meaning: chemistry.)",
+"kn_ex": "ಚ್ಯವನಪ್ರಾಶ ಒಂದು ಜನಪ್ರಿಯ ರಸಾಯನ.",
+"en_ex": "Chyawanprash is a popular rasayana."
+},
+{
+"kn": "ಚ್ಯವನಪ್ರಾಶ",
+"tr": "cyavanaprāśa",
+"pos": "n.",
+"en_term": "chyawanprash",
+"kn_def": "(ಆಯುರ್ವೇದ) ನೆಲ್ಲಿಕಾಯಿ ಮುಖ್ಯವಾಗಿ ಅನೇಕ ಗಿಡಮೂಲಿಕೆಗಳು, ತುಪ್ಪ, ಜೇನು ಸೇರಿಸಿ ತಯಾರಿಸುವ ಲೇಹ್ಯ; ರೋಗನಿರೋಧಕ ಶಕ್ತಿಗೆ.",
+"en": "(Ayurveda) A herbal jam based mainly on Indian gooseberry (amla), with many herbs, ghee and honey, taken for immunity.",
+"kn_ex": "ಮಕ್ಕಳಿಗೆ ಚಳಿಗಾಲದಲ್ಲಿ ಚ್ಯವನಪ್ರಾಶ ಕೊಡುತ್ತಾರೆ.",
+"en_ex": "Children are given chyawanprash in winter."
+},
+{
+"kn": "ತ್ರಿಫಲಾ",
+"tr": "triphalā",
+"pos": "n.",
+"en_term": "triphala",
+"kn_def": "(ಆಯುರ್ವೇದ) ನೆಲ್ಲಿಕಾಯಿ, ತಾರೇಕಾಯಿ, ಅಳಲೆಕಾಯಿ ಎಂಬ ಮೂರು ಹಣ್ಣುಗಳ ಮಿಶ್ರಣ; ಜೀರ್ಣಕ್ರಿಯೆ ಮತ್ತು ಮಲಬದ್ಧತೆಗೆ.",
+"en": "(Ayurveda) A blend of three fruits, amalaki (Indian gooseberry), bibhitaki and haritaki, used for digestion and constipation.",
+"kn_ex": "ತ್ರಿಫಲಾ ಕಣ್ಣುಗಳಿಗೂ ಒಳ್ಳೆಯದು ಎನ್ನುತ್ತಾರೆ.",
+"en_ex": "Triphala is said to be good for the eyes too."
+},
+{
+"kn": "ಅಶ್ವಗಂಧ",
+"tr": "aśvagaṃdha",
+"pos": "n.",
+"en_term": "ashwagandha",
+"kn_def": "(ಆಯುರ್ವೇದ) ವಿತಾನಿಯಾ ಸೋಮ್ನಿಫೆರಾ (Withania somnifera) ಎಂಬ ಪೊದೆಸಸ್ಯ; ಇದರ ಬೇರನ್ನು ಒತ್ತಡ ನಿವಾರಣೆ, ಶಕ್ತಿ ಮತ್ತು ನಿದ್ರೆಗೆ ಬಳಸುತ್ತಾರೆ.",
+"en": "(Ayurveda) Withania somnifera, a shrub whose root is used for stress, strength and sleep.",
+"kn_ex": "ಅಶ್ವಗಂಧ ಚೂರ್ಣವನ್ನು ಹಾಲಿನೊಂದಿಗೆ ಸೇವಿಸುತ್ತಾರೆ.",
+"en_ex": "Ashwagandha powder is taken with milk."
+},
+{
+"kn": "ಅಮೃತಬಳ್ಳಿ",
+"tr": "amr̥taballi",
+"pos": "n.",
+"en_term": "giloy",
+"kn_def": "(ಆಯುರ್ವೇದ) ಗುಡೂಚಿ (Tinospora cordifolia) ಎಂಬ ಔಷಧೀಯ ಬಳ್ಳಿ; ಜ್ವರ ಮತ್ತು ರೋಗನಿರೋಧಕ ಶಕ್ತಿಗೆ ಬಳಕೆ.",
+"en": "(Ayurveda) Giloy or guduchi (Tinospora cordifolia), a medicinal climber used for fever and immunity.",
+"kn_ex": "ಜ್ವರ ಬಂದಾಗ ಅಮೃತಬಳ್ಳಿ ಕಷಾಯ ಕುಡಿಸುತ್ತಾರೆ.",
+"en_ex": "Giloy decoction is given during fever."
+},
+{
+"kn": "ಬ್ರಾಹ್ಮಿ",
+"tr": "brāhmi",
+"pos": "n.",
+"en_term": "brahmi",
+"kn_def": "(ಆಯುರ್ವೇದ) ಜಲಬ್ರಾಹ್ಮಿ (Bacopa monnieri) ಎಂಬ ಸಸ್ಯ; ನೆನಪಿನ ಶಕ್ತಿ ಮತ್ತು ಏಕಾಗ್ರತೆಗೆ ಬಳಕೆ. ದಕ್ಷಿಣ ಭಾರತದಲ್ಲಿ ಒಂದೆಲಗ (Centella asiatica)ವನ್ನೂ ಬ್ರಾಹ್ಮಿ ಎಂದು ಕರೆಯುತ್ತಾರೆ.",
+"en": "(Ayurveda) Bacopa monnieri, a herb used for memory and concentration. In South India, gotu kola (Centella asiatica, Kannada ondelaga) is also called brahmi.",
+"kn_ex": "ಪರೀಕ್ಷೆಯ ಸಮಯದಲ್ಲಿ ಬ್ರಾಹ್ಮಿ ಕೊಡುವ ರೂಢಿ ಇದೆ.",
+"en_ex": "Brahmi is customarily given at exam time."
+},
+{
+"kn": "ಶತಾವರಿ",
+"tr": "śatāvari",
+"pos": "n.",
+"en_term": "shatavari",
+"kn_def": "(ಆಯುರ್ವೇದ) ಆಸ್ಪರಾಗಸ್ ರೆಸಿಮೋಸಸ್ ಎಂಬ ಸಸ್ಯ; ಮಹಿಳೆಯರ ಆರೋಗ್ಯ ಮತ್ತು ಎದೆಹಾಲು ಹೆಚ್ಚಳಕ್ಕೆ ಬಳಕೆ.",
+"en": "(Ayurveda) Asparagus racemosus, used for women's health and to increase breast milk.",
+"kn_ex": "ಬಾಣಂತಿಯರಿಗೆ ಶತಾವರಿ ಕೊಡುತ್ತಾರೆ.",
+"en_ex": "New mothers are given shatavari."
+},
+{
+"kn": "ದಿನಚರ್ಯೆ",
+"tr": "dinacarye",
+"pos": "n.",
+"en_term": "dinacharya",
+"kn_def": "(ಆಯುರ್ವೇದ) ಆರೋಗ್ಯಕ್ಕಾಗಿ ಅನುಸರಿಸಬೇಕಾದ ದಿನನಿತ್ಯದ ಜೀವನಕ್ರಮ: ಬೇಗ ಏಳುವುದು, ದಂತಧಾವನ, ವ್ಯಾಯಾಮ, ಸ್ನಾನ, ಸರಿಯಾದ ಹೊತ್ತಿಗೆ ಊಟ ಇತ್ಯಾದಿ.",
+"en": "(Ayurveda) The daily routine for health: rising early, cleaning the teeth, exercise, bathing, eating at the right times and so on.",
+"kn_ex": "ಸರಿಯಾದ ದಿನಚರ್ಯೆ ಅರ್ಧ ಆರೋಗ್ಯ.",
+"en_ex": "A proper daily routine is half of good health."
+},
+{
+"kn": "ಋತುಚರ್ಯೆ",
+"tr": "r̥tucarye",
+"pos": "n.",
+"en_term": "ritucharya",
+"kn_def": "(ಆಯುರ್ವೇದ) ಋತುಗಳಿಗೆ ತಕ್ಕಂತೆ ಆಹಾರ ಮತ್ತು ಜೀವನಶೈಲಿಯನ್ನು ಬದಲಿಸುವ ಆಯುರ್ವೇದದ ನಿಯಮಗಳು.",
+"en": "(Ayurveda) The Ayurvedic rules for changing diet and lifestyle with the seasons.",
+"kn_ex": "ಋತುಚರ್ಯೆಯ ಪ್ರಕಾರ ಬೇಸಿಗೆಯಲ್ಲಿ ತಂಪು ಆಹಾರ ಸೇವಿಸಬೇಕು.",
+"en_ex": "According to ritucharya, cooling food should be eaten in summer."
+},
+{
+"kn": "ಪಥ್ಯ",
+"tr": "pathya",
+"pos": "n.",
+"en_term": "pathya",
+"kn_def": "(ಆಯುರ್ವೇದ) ಚಿಕಿತ್ಸೆಯ ವೇಳೆ ಪಾಲಿಸಬೇಕಾದ ಆಹಾರ-ವಿಹಾರದ ನಿಯಮ; ಹಿತಕರ ಆಹಾರ. ಇದರ ವಿರುದ್ಧ ‘ಅಪಥ್ಯ’.",
+"en": "(Ayurveda) The diet and conduct to follow during treatment; wholesome food. Its opposite is 'apathya'.",
+"kn_ex": "ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳುವಾಗ ಪಥ್ಯ ಪಾಲಿಸಿ.",
+"en_ex": "Follow the prescribed diet while taking the medicine."
+},
+{
+"kn": "ನಾಡಿ ಪರೀಕ್ಷೆ",
+"tr": "nāḍi parīkṣe",
+"pos": "n.",
+"en_term": "pulse diagnosis",
+"kn_def": "(ಆಯುರ್ವೇದ) ಮಣಿಕಟ್ಟಿನ ನಾಡಿಯನ್ನು ಪರೀಕ್ಷಿಸಿ ದೋಷಗಳ ಸ್ಥಿತಿ ತಿಳಿಯುವ ರೋಗನಿರ್ಣಯ ವಿಧಾನ.",
+"en": "(Ayurveda) Pulse diagnosis: reading the pulse at the wrist to judge the state of the doshas.",
+"kn_ex": "ವೈದ್ಯರು ನಾಡಿ ಪರೀಕ್ಷೆ ಮಾಡಿ ಔಷಧ ಕೊಟ್ಟರು.",
+"en_ex": "The doctor read my pulse and gave medicine."
+},
+{
+"kn": "ಷಡ್ರಸ",
+"tr": "ṣaḍrasa",
+"pos": "n.",
+"en_term": "six tastes",
+"kn_def": "(ಆಯುರ್ವೇದ) ಆರು ರುಚಿಗಳು: ಮಧುರ (ಸಿಹಿ), ಆಮ್ಲ (ಹುಳಿ), ಲವಣ (ಉಪ್ಪು), ಕಟು (ಖಾರ), ತಿಕ್ತ (ಕಹಿ), ಕಷಾಯ (ಒಗರು); ಸಮತೋಲನದ ಊಟದಲ್ಲಿ ಎಲ್ಲವೂ ಇರಬೇಕು.",
+"en": "(Ayurveda) The six tastes: sweet, sour, salty, pungent, bitter and astringent; a balanced meal should contain all of them.",
+"kn_ex": "ಯುಗಾದಿಯ ಬೇವು-ಬೆಲ್ಲ ಷಡ್ರಸಗಳನ್ನು ನೆನಪಿಸುತ್ತದೆ.",
+"en_ex": "Ugadi's neem and jaggery recall the six tastes."
+},
+{
+"kn": "ಯೋಗ",
+"tr": "yōga",
+"pos": "n.",
+"en_term": "yoga",
+"kn_def": "(ಯೋಗಶಾಸ್ತ್ರ) ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನದ ಮೂಲಕ ದೇಹ-ಮನಸ್ಸುಗಳನ್ನು ಸಮನ್ವಯಗೊಳಿಸುವ ಭಾರತೀಯ ಸಾಧನೆ; ಪತಂಜಲಿಯ ಯೋಗಸೂತ್ರ ಮೂಲಗ್ರಂಥ.",
+"en": "(yoga) The Indian practice of uniting body and mind through postures, breathing and meditation; Patanjali's Yoga Sutras are its classic text.",
+"kn_ex": "ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ ಅರ್ಧ ಗಂಟೆ ಯೋಗ ಮಾಡುತ್ತೇನೆ.",
+"en_ex": "I do yoga for half an hour every morning."
+},
+{
+"kn": "ಪ್ರಾಣಾಯಾಮ",
+"tr": "prāṇāyāma",
+"pos": "n.",
+"en_term": "pranayama",
+"kn_def": "(ಯೋಗಶಾಸ್ತ್ರ) ಉಸಿರಾಟವನ್ನು ನಿಯಂತ್ರಿಸುವ ಯೋಗಾಭ್ಯಾಸ; ಅನುಲೋಮ-ವಿಲೋಮ, ಭ್ರಾಮರಿ ಮುಂತಾದ ವಿಧಗಳಿವೆ.",
+"en": "(yoga) Yogic breath control; kinds include anuloma-viloma (alternate-nostril breathing) and bhramari.",
+"kn_ex": "ಪ್ರಾಣಾಯಾಮದಿಂದ ಮನಸ್ಸು ಶಾಂತವಾಗುತ್ತದೆ.",
+"en_ex": "Pranayama calms the mind."
+},
+{
+"kn": "ಆಸನ",
+"tr": "āsana",
+"pos": "n.",
+"en_term": "asana",
+"kn_def": "(ಯೋಗಶಾಸ್ತ್ರ) ಯೋಗದ ದೇಹಭಂಗಿ; ಉದಾ. ಪದ್ಮಾಸನ, ಶೀರ್ಷಾಸನ. (ಸಾಮಾನ್ಯ ಅರ್ಥ: ಕುಳಿತುಕೊಳ್ಳುವ ಸ್ಥಳ)",
+"en": "(yoga) A yoga posture, such as padmasana (lotus pose) or shirshasana (headstand). (General meaning: seat.)",
+"kn_ex": "ಮೊದಲು ಸುಲಭವಾದ ಆಸನಗಳಿಂದ ಆರಂಭಿಸಿ.",
+"en_ex": "Start with the easy asanas first."
+},
+{
+"kn": "ಧ್ಯಾನ",
+"tr": "dhyāna",
+"pos": "n.",
+"en_term": "meditation",
+"kn_def": "(ಯೋಗಶಾಸ್ತ್ರ) ಮನಸ್ಸನ್ನು ಒಂದೇ ವಿಷಯದ ಮೇಲೆ ಏಕಾಗ್ರಗೊಳಿಸಿ ಶಾಂತಗೊಳಿಸುವ ಅಭ್ಯಾಸ.",
+"en": "(yoga) Meditation: the practice of focusing and stilling the mind.",
+"kn_ex": "ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷದ ಧ್ಯಾನ ಒತ್ತಡ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.",
+"en_ex": "Ten minutes of meditation a day reduces stress."
+}
+]

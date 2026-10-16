@@ -1,0 +1,15 @@
+0 done, 12609 to go
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+1024/12609  13.2/s  eta 0.2 h
+2048/12609  13.3/s  eta 0.2 h
+3072/12609  13.8/s  eta 0.2 h
+4096/12609  13.6/s  eta 0.2 h
+5120/12609  13.2/s  eta 0.2 h
+6144/12609  11.9/s  eta 0.2 h
+7168/12609  10.9/s  eta 0.1 h
+8192/12609  10.3/s  eta 0.1 h
+9216/12609  10.1/s  eta 0.1 h
+10240/12609  9.8/s  eta 0.1 h
+11264/12609  9.5/s  eta 0.0 h
+12288/12609  9.3/s  eta 0.0 h
+12609/12609  9.2/s  eta 0.0 h

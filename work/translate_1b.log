@@ -1,0 +1,49 @@
+0 done, 136003 to go
+A new version of the following files was downloaded from https://huggingface.co/prajdabre/rotary-indictrans2-en-indic-1B:
+- tokenization_indictrans.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/prajdabre/rotary-indictrans2-en-indic-1B:
+- configuration_rotary_indictrans.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/prajdabre/rotary-indictrans2-en-indic-1B:
+- modeling_rotary_indictrans.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+2048/136003  7.5/s  eta 5.0 h
+4096/136003  6.9/s  eta 5.3 h
+6144/136003  7.1/s  eta 5.1 h
+8192/136003  7.1/s  eta 5.0 h
+10240/136003  7.2/s  eta 4.8 h
+12288/136003  7.3/s  eta 4.7 h
+14336/136003  7.4/s  eta 4.6 h
+16384/136003  7.4/s  eta 4.5 h
+18432/136003  7.3/s  eta 4.4 h
+20480/136003  7.4/s  eta 4.3 h
+22528/136003  7.4/s  eta 4.3 h
+24576/136003  7.4/s  eta 4.2 h
+26624/136003  7.3/s  eta 4.1 h
+28672/136003  7.4/s  eta 4.0 h
+30720/136003  7.4/s  eta 4.0 h
+32768/136003  7.4/s  eta 3.9 h
+34816/136003  7.4/s  eta 3.8 h
+36864/136003  7.4/s  eta 3.7 h
+38912/136003  7.5/s  eta 3.6 h
+40960/136003  7.4/s  eta 3.6 h
+43008/136003  7.4/s  eta 3.5 h
+45056/136003  7.4/s  eta 3.4 h
+47104/136003  7.5/s  eta 3.3 h
+49152/136003  7.5/s  eta 3.2 h
+51200/136003  7.5/s  eta 3.2 h
+53248/136003  7.5/s  eta 3.1 h
+55296/136003  7.5/s  eta 3.0 h
+57344/136003  7.5/s  eta 2.9 h
+59392/136003  7.4/s  eta 2.9 h
+61440/136003  7.4/s  eta 2.8 h
+63488/136003  7.4/s  eta 2.7 h
+65536/136003  7.4/s  eta 2.6 h
+67584/136003  7.4/s  eta 2.6 h
+69632/136003  7.4/s  eta 2.5 h
+71680/136003  7.4/s  eta 2.4 h
+73728/136003  7.4/s  eta 2.3 h
+/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

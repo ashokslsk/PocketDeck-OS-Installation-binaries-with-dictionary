@@ -1,0 +1,43 @@
+{"keed": 28111, "collins": 18672, "forms": 67964, "headwords": 42938, "index_entries": 110902} endings: 342
+Preparing /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/KannadaEnglish
+  Generating KannadaEnglish.idx.oft ... 13902 bytes
+  Generating KannadaEnglish.idx.oft.cspt ... 138652 bytes
+  Done. 2 step(s) completed.
+  Output: /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/KannadaEnglish
+55395 distinct Kannada words: 55348 identical to HarfBuzz, 47 differ
+word occurrences in translations: 209795, affected: 83 (0.040%)
+  differs: ಬೆರ್ರಿ 8
+  differs: ಸ್ಕ್ರ್ಯಾಪ್ 5
+  differs: ಗೂಸ್ಬೆರ್ರಿ 4
+  differs: ಗೋಲ್ಡ್ಸ್ಮಿತ್ 4
+  differs: ಸ್ಕ್ವ್ಯಾಷ್ 4
+  differs: ಹುರ್ರೇ 4
+  differs: ಕರ್ರಂಟ್ 3
+  differs: ಗರ್ರನೆ 3
+  differs: ಪೋಸ್ಟ್ಸ್ಕ್ರಿಪ್ಟ್ 3
+  differs: ಬರ್ರನೆ 3
+  differs: ಎಕ್ಸ್ಪ್ರೆಸ್ 2
+  differs: ಚೆರ್ರಿ 2
+  differs: ಜರ್ರನೆ 2
+  differs: ಪರ್ರೆಂದು 2
+  differs: ಮಾರ್ಕ್ಸ್ಮ್ಯಾನ್ 2
+  differs: ಅಂತರ್ರಾಷ್ಟ್ರೀಯ 1
+  differs: ಅಡ್ಮಿನಿಸ್ಟ್ರೇಟರ್ರಿಕ್ಸ್ 1
+  differs: ಆರ್ಮ್ಸ್ಟ್ರೊಂಗ್ 1
+  differs: ಇನ್ಸ್ಟ್ರಸ್ಮಾಲ್ 1
+  differs: ಇನ್ಸ್ಟ್ರುಮೆಂಟಲ್ 1
+  differs: ಇನ್ಸ್ಟ್ರುಮೆಂಟ್ 1
+  differs: ಇರ್ರೆಸೊಲ್ಯೂಟ್ 1
+  differs: ಎರ್ರಾಟಾ 1
+  differs: ಕರ್ರಿಕಾಂಬ್ 1
+  differs: ಕಿರ್ರನೆ 1
+-rw-r--r--@ 1 ashok  staff  8253786 Oct 14 13:59 /Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/KannadaEnglish.zip
+
+/Users/ashok/Library/Application Support/Claude/scratch-workspaces/9fbb4d3d-2663-4dcd-b22b-654bf7582786/e533bd95-93c8-45a5-94c8-6fab1c9482d0/scratch-2026-10-13-f9d0ca/tools/../output/KannadaEnglish:
+total 76424
+drwxr-xr-x@  6 ashok  staff       192 Oct 14 13:59 .
+drwxr-xr-x@ 12 ashok  staff       384 Oct 14 13:59 ..
+-rw-r--r--@  1 ashok  staff  34955299 Oct 14 13:59 KannadaEnglish.dict
+-rw-r--r--@  1 ashok  staff   4148338 Oct 14 13:59 KannadaEnglish.idx
+-rw-r--r--@  1 ashok  staff     13902 Oct 14 13:59 KannadaEnglish.idx.oft
+-rw-r--r--@  1 ashok  staff       371 Oct 14 13:59 KannadaEnglish.ifo

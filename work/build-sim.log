@@ -1,0 +1,98 @@
+********************************************************************************
+Obsolete PIO Core v6.1.18 is used (previous was 6.2.0)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing simulator-X3 (platform: native)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+Language              Code  Own   Fallback  Unused  Data (B)
+--------------------  ----  ----  --------  ------  --------
+English               EN    1291  0         63      25620   
+العربية               AR    709   582       57      23661   
+Беларуская            BE    529   762       23      18146   
+Català                CA    584   707       23      13282   
+Valencià              CAV   565   726       18      12567   
+Čeština               CS    716   575       57      16381   
+Dansk                 DA    528   763       23      9429    
+Deutsch               DE    705   586       53      15052   
+Español               ES    706   585       57      16229   
+Suomi                 FI    517   774       23      10302   
+Français              FR    528   763       23      10344   
+עברית                 HE    521   770       17      13917   
+Magyar                HU    528   763       23      11332   
+Italiano              IT    595   696       30      12240   
+Қазақша               KK    527   764       23      17787   
+Lietuvių              LT    528   763       23      9920    
+Nederlands            NL    527   764       22      9726    
+Polski                PL    547   744       30      11051   
+Português (Brasil)    PT    705   586       57      15900   
+Português (Portugal)  PT2   799   492       62      19025   
+Română                RO    527   764       22      10809   
+Русский               RU    592   699       22      21056   
+Slovenščina           SI    528   763       23      10194   
+Slovenčina            SK    616   675       34      13831   
+Svenska               SV    581   710       22      11472   
+Türkçe                TR    527   764       22      10348   
+Українська            UK    581   710       29      21194   
+Tiếng Việt            VI    582   709       33      13635   
+
+  Total: 1291  |  Used in code: 1228  |  Never used: 63
+  Flash: 404,450 B strings (deduped)  +  72,296 B offset tables  =  476,746 B
+
+  Stripping 63 unused string(s) from output.
+
+Code generation complete!
+  Languages: 28
+  String keys: 1228
+WARNING [git_branch.py]: git command failed (exit 128): fatal: not a git repository (or any of the parent directories): .git; short SHA suffix will be "unknown"
+WARNING [git_branch.py]: Could not read git working-tree state: Command '['git', 'status', '--porcelain', '--untracked-files=no']' returned non-zero exit status 128.; state will be "unknown"
+HomePageHtml          2889B ->   1158B gz
+FilesPageHtml       260079B ->  60730B gz
+SettingsPageHtml     25615B ->   5783B gz
+FontsPageHtml        10749B ->   3311B gz
+StyleCss              3056B ->   1150B gz
+LogoPng               2951B raw
+jszip_minJs          97630B ->  28379B gz
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ off
+Found 36 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Crosspoint Simulator @ 1.0.0+sha.4586bee
+|-- FreeInkUI @ 0.1.0
+|-- Icons @ 1.0.0
+|-- NearbyTransfer @ 1.0.0
+|-- ArduinoJson @ 7.4.2
+|-- QRCode @ 0.0.1
+|-- PNGdec @ 1.1.6
+|-- JPEGDEC @ 1.2.7+sha.8628297
+|-- Logging
+|-- Serialization
+|-- uzlib @ 2.9.8
+|-- I18n
+|-- GfxRenderer
+|-- Epub
+|-- FsHelpers
+|-- Xtc
+|-- MemoryBudget
+|-- Memory
+|-- AppVersion
+|-- JpegToBmpConverter
+|-- Txt
+|-- OpdsParser
+|-- Utf8
+|-- KOReaderSync
+|-- MiniBidi
+|-- DictHtmlRenderer
+|-- EpdFont
+|-- FileIndex
+Building in release mode
+Compiling .pio/build/simulator-X3/src/util/Dictionary.o
+Linking .pio/build/simulator-X3/program
+========================= [SUCCESS] Took 7.71 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+simulator-X3   SUCCESS   00:00:07.714
+========================= 1 succeeded in 00:00:07.714 =========================

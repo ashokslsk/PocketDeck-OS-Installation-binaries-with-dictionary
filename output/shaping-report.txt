@@ -1,0 +1,27 @@
+195473 distinct Kannada words: 195002 identical to HarfBuzz, 471 differ
+word occurrences in translations: 2661338, affected: 992 (0.037%)
+  differs: ಎಕ್ಸ್ಪ್ರೆಸ್ 28
+  differs: ಸ್ಕ್ವ್ಯಾಷ್ 20
+  differs: ಸ್ಕ್ರ್ಯಾಪ್ 18
+  differs: ಚೆರ್ರಿ 16
+  differs: ಆರ್ಮ್ಸ್ಟ್ರಾಂಗ್ 15
+  differs: ಮೆರ್ರಿ 13
+  differs: ಟೆರ್ರಿ 12
+  differs: ಇರ್ರೆಡ್ಯೂಸಿಬಲ್ 10
+  differs: ಬೆರ್ರಿ 10
+  differs: ಫೆರ್ರಿಸ್ 9
+  differs: ವಿಂಡ್ಸ್ಕ್ರೀನ್ 9
+  differs: ಹೆರ್ರಿಂಗ್ 9
+  differs: ಪೋಸ್ಟ್ಮ್ಯಾನ್ 8
+  differs: ಶೆರ್ರಿ 8
+  differs: ಎಕ್ಸ್ಕ್ಲೂಸಿವ್ 7
+  differs: ಚೆರ್ರಿಗಳು 7
+  differs: ಜೆರ್ರಿ 7
+  differs: ಪೋಸ್ಟ್ಸ್ಕ್ರಿಪ್ಟ್ 7
+  differs: ಬ್ಯಾಕ್ಸ್ಟ್ರೋಕ್ 7
+  differs: ಮರ್ರೆ 7
+  differs: ಮುರ್ರೆ 7
+  differs: ಹೈಪರ್ಆಕ್ಟಿವಿಟಿ 7
+  differs: ಇನ್ಸ್ಟ್ರಕ್ಷನ್ 6
+  differs: ಎಕ್ಸ್ಟ್ರಾಕಾರ್ಪೋರಿಯಲ್ 6
+  differs: ಎಕ್ಸ್ಟ್ರಾಕ್ಟರ್ 6

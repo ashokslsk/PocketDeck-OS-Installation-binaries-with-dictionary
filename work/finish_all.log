@@ -1,0 +1,41 @@
+{"entries": 34159, "with_kannada": 34154, "defs": 62002, "defs_kn": 62002, "ex": 73069, "ex_kn": 73069, "gloss": 23566, "merged": 101, "wiktionary": 3562, "forms": 28326}
+{"keed": 28111, "collins": 18672, "wiktionary": 2336, "forms": 83051, "headwords": 43440, "index_entries": 126491} endings: 343
+176164 distinct Kannada words: 175758 identical to HarfBuzz, 406 differ
+word occurrences in translations: 2348184, affected: 844 (0.036%)
+  differs: ಎಕ್ಸ್ಪ್ರೆಸ್ 24
+  differs: ಸ್ಕ್ವ್ಯಾಷ್ 20
+  differs: ಸ್ಕ್ರ್ಯಾಪ್ 18
+  differs: ಚೆರ್ರಿ 16
+  differs: ಮೆರ್ರಿ 13
+  differs: ಆರ್ಮ್ಸ್ಟ್ರಾಂಗ್ 12
+  differs: ಟೆರ್ರಿ 12
+  differs: ಬೆರ್ರಿ 10
+  differs: ಫೆರ್ರಿಸ್ 9
+  differs: ವಿಂಡ್ಸ್ಕ್ರೀನ್ 9
+  differs: ಪೋಸ್ಟ್ಮ್ಯಾನ್ 8
+  differs: ಶೆರ್ರಿ 8
+  differs: ಚೆರ್ರಿಗಳು 7
+  differs: ಜೆರ್ರಿ 7
+  differs: ಪೋಸ್ಟ್ಸ್ಕ್ರಿಪ್ಟ್ 7
+  differs: ಬ್ಯಾಕ್ಸ್ಟ್ರೋಕ್ 7
+  differs: ಮರ್ರೆ 7
+  differs: ಮುರ್ರೆ 7
+  differs: ಹೆರ್ರಿಂಗ್ 7
+  differs: ಎಕ್ಸ್ಟ್ರಾಕ್ಟರ್ 6
+  differs: ಕರ್ರಂಟ್ 6
+  differs: ಗೋಲ್ಡ್ಸ್ಮಿತ್ 6
+  differs: ಡ್ರಾಯರ್ಅನ್ನು 6
+  differs: ಬಿಯರ್ಅನ್ನು 6
+  differs: ಸನ್ಸ್ಕ್ರೀನ್ 6
+total 72912
+drwxr-xr-x@ 11 ashok  staff       352 Oct 14 14:29 .
+drwx------@  6 ashok  staff       192 Oct 14 06:45 ..
+-rw-r--r--@  1 ashok  staff      6148 Oct 14 06:54 .DS_Store
+drwxr-xr-x@ 10 ashok  staff       320 Oct 14 14:29 CollinsKannada
+-rw-r--r--@  1 ashok  staff  13161266 Oct 14 01:18 CollinsKannada-200M.zip
+-rw-r--r--@  1 ashok  staff  13903405 Oct 14 14:29 CollinsKannada.zip
+drwxr-xr-x@  6 ashok  staff       192 Oct 14 14:29 KannadaEnglish
+-rw-r--r--@  1 ashok  staff   8457993 Oct 14 14:29 KannadaEnglish.zip
+-rw-r--r--@  1 ashok  staff      7453 Oct 14 14:08 README.md
+drwxr-xr-x@  4 ashok  staff       128 Oct 13 21:22 firmware
+-rw-r--r--@  1 ashok  staff      1213 Oct 14 14:29 shaping-report.txt

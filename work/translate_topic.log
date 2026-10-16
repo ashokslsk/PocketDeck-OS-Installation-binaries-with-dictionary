@@ -1,0 +1,29 @@
+0 done, 10478 to go
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+1024/10478  6.3/s  eta 0.4 h
+2048/10478  5.0/s  eta 0.5 h
+3072/10478  5.1/s  eta 0.4 h
+4096/10478  5.3/s  eta 0.3 h
+5120/10478  5.2/s  eta 0.3 h
+6144/10478  5.0/s  eta 0.2 h
+7168/10478  4.9/s  eta 0.2 h
+8192/10478  4.9/s  eta 0.1 h
+9216/10478  5.0/s  eta 0.1 h
+10240/10478  5.1/s  eta 0.0 h
+10478/10478  4.9/s  eta 0.0 h
+8968 done, 0 to go
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+0 done, 8864 to go
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+1024/8864  25.8/s  eta 0.1 h
+2048/8864  24.9/s  eta 0.1 h
+3072/8864  23.7/s  eta 0.1 h
+4096/8864  22.9/s  eta 0.1 h
+5120/8864  21.3/s  eta 0.0 h
+6144/8864  21.8/s  eta 0.0 h
+7168/8864  20.3/s  eta 0.0 h
+8192/8864  18.3/s  eta 0.0 h
+8864/8864  18.5/s  eta 0.0 h
+10478 done, 1 to go
+It is highly recommended to use `flash_attention_2` for better performance with RotaryIndicTrans.Falling back to the default `eager` implementation.
+1/1  0.2/s  eta 0.0 h

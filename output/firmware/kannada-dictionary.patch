@@ -1,0 +1,249 @@
+--- KannadaReading.h	2026-10-13 20:39:42
++++ src/activities/reader/KannadaReading.h	2026-10-13 20:40:35
+@@ -41,6 +41,15 @@
+ void beginUi();
+ void endUi();
+ 
++// Definitions of an English-Kannada dictionary (.ifo lang containing "kn", or
++// "Kannada" in its name). beginDictionary() opens the font and returns false
++// if it could not; dictionaryFont() applies the line-height floor for the
++// definition font (call again whenever it changes); endDictionary() releases
++// the font and puts back the reader font's floor of an open Kannada book.
++bool beginDictionary();
++void dictionaryFont(int fontId);
++void endDictionary(GfxRenderer& renderer);
++
+ // The reader is short of heap for layout: shrink the Kannada caches.
+ void releaseForLowMemory();
+ 
+--- KannadaReading.cpp	2026-10-13 20:39:42
++++ src/activities/reader/KannadaReading.cpp	2026-10-13 20:43:59
+@@ -2,6 +2,7 @@
+ 
+ #include <GfxRenderer.h>
+ #include <Logging.h>
++#include <MemoryBudget.h>
+ 
+ #include <cstring>
+ 
+@@ -18,6 +19,9 @@
+ int gUiSessions = 0;       // book-list screens open (Home, Recent Books, Files)
+ bool gUiTried = false;     // the font was opened (or failed) for a UI session
+ bool gUiAcquired = false;  // this module holds a font reference for the UI
++bool gDict = false;        // a Kannada dictionary definition is open (font held)
++int gDictFloorFont = 0;    // definition font id the dictionary floor is for
++int gDictTier = 1;         // Kannada size for the definition font
+ 
+ // Kannada sizes by reader font size: {regular, bold}. Kannada letters sit
+ // lower in their em than Latin capitals, so each tier is a little larger than
+@@ -30,15 +34,24 @@
+     {kannada::Style::Read32, kannada::Style::ReadBold34},  // 32 / 34 px
+ };
+ 
+-// In a book the tier follows the reader font (useReaderFont); on book-list
+-// screens it follows the UI font the title is drawn with.
++// Tier for a font by its own line height (any floor cleared first).
++int tierForLineHeight(const int ownLine) { return ownLine < 24 ? 0 : ownLine < 31 ? 1 : ownLine < 39 ? 2 : 3; }
++
++// Raises fontId's line box to fit Kannada of the given tier.
++void applyFloor(GfxRenderer& renderer, const int fontId, const int tier) {
++  const kannada::Style regular = kTiers[tier][0];
++  renderer.setMetricFloor(fontId, kannada::ascent(renderer, regular), kannada::lineHeight(renderer, regular));
++}
++
++// In a dictionary definition or a book the tier follows the definition or
++// reader font; on book-list screens it follows the UI font the title is drawn with.
+ kannada::Style styleFor(const GfxRenderer& r, const int fontId, const EpdFontFamily::Style style) {
+-  const int tier = gActive ? gTier : (r.getLineHeight(fontId) < 24 ? 0 : 1);
++  const int tier = gDict ? gDictTier : gActive ? gTier : (r.getLineHeight(fontId) < 24 ? 0 : 1);
+   return kTiers[tier][(style & EpdFontFamily::BOLD) != 0 ? 1 : 0];
+ }
+ 
+ bool handles(const char* text) {
+-  if (gActive) return kannada::hasKannada(text);
++  if (gActive || gDict) return kannada::hasKannada(text);
+   if (gUiSessions == 0 || !kannada::hasKannada(text)) return false;
+   // A Kannada title on Home / Recent Books / Files: open the font the first
+   // time one is drawn, and keep it until those screens close.
+@@ -112,13 +125,57 @@
+   GfxRenderer& renderer = *gRenderer;
+   // The reader font's own line height (clear any floor from another size first).
+   renderer.setMetricFloor(0, 0, 0);
+-  const int ownLine = renderer.getLineHeight(fontId);
+-  gTier = ownLine < 24 ? 0 : ownLine < 31 ? 1 : ownLine < 39 ? 2 : 3;
+-  const kannada::Style regular = kTiers[gTier][0];
+-  renderer.setMetricFloor(fontId, kannada::ascent(renderer, regular), kannada::lineHeight(renderer, regular));
++  gTier = tierForLineHeight(renderer.getLineHeight(fontId));
++  applyFloor(renderer, fontId, gTier);
+   gFloorFont = fontId;
+ }
+ 
++bool beginDictionary() {
++  if (gDict) return true;
++  if (!kannada::installed()) return false;
++  // Opening the font takes about 20 KB; keep the definition layout's headroom.
++  // A Kannada book that already holds the font costs nothing extra.
++  constexpr uint32_t kMinFree = 40U * 1024U;
++  constexpr uint32_t kMinMaxAlloc = 24U * 1024U;
++  const auto heap = MemoryBudget::snapshot();
++  if (!kannada::ready() && !MemoryBudget::hasHeap(heap, kMinFree, kMinMaxAlloc)) {
++    LOG_ERR("KNR", "Low heap for Kannada dictionary font (%u free, %u max alloc); showing without shaping",
++            static_cast<unsigned>(heap.freeHeap), static_cast<unsigned>(heap.maxAllocHeap));
++    return false;
++  }
++  if (!kannada::acquire()) {
++    kannada::release();
++    LOG_ERR("KNR", "Kannada font could not be opened; the dictionary shows without shaping");
++    return false;
++  }
++  gDict = true;
++  gDictFloorFont = 0;
++  return true;
++}
++
++void dictionaryFont(const int fontId) {
++  if (!gDict || gRenderer == nullptr || fontId == 0 || fontId == gDictFloorFont) return;
++  GfxRenderer& renderer = *gRenderer;
++  renderer.setMetricFloor(0, 0, 0);
++  gDictTier = tierForLineHeight(renderer.getLineHeight(fontId));
++  applyFloor(renderer, fontId, gDictTier);
++  gDictFloorFont = fontId;
++}
++
++void endDictionary(GfxRenderer& renderer) {
++  if (!gDict) return;
++  gDict = false;
++  gDictFloorFont = 0;
++  renderer.setMetricFloor(0, 0, 0);
++  kannada::release();
++  // A Kannada book underneath gets its reader-font floor back.
++  if (gActive && gFloorFont != 0) {
++    const int readerFont = gFloorFont;
++    gFloorFont = 0;
++    useReaderFont(readerFont);
++  }
++}
++
+ uint8_t layoutFlag() { return gActive ? 1 : 0; }
+ 
+ void beginUi() { ++gUiSessions; }
+--- DictionaryDefinitionActivity.h	2026-10-13 20:40:41
++++ src/activities/reader/DictionaryDefinitionActivity.h	2026-10-13 20:40:53
+@@ -140,6 +140,9 @@
+   bool definitionIsHtml_ = false;
+   bool definitionHtmlNeedsPlainFallback_ = false;
+   bool definitionReadFailed_ = false;
++  // English-Kannada dictionary: Kannada is shaped by KannadaReading while open.
++  std::string kannadaCheckedPath_;
++  bool kannadaDictionary_ = false;
+   // Kept per lookup so a failed SD-font prewarm can use the matching built-in
+   // reader font without changing the user's selected font setting.
+   int definitionFontId_ = 0;
+@@ -200,6 +203,9 @@
+ 
+   bool enterWordSelectMode();
+   void wrapText();
++  // Turns Kannada shaping on or off for the current dictionary and sizes it
++  // for the definition font.
++  void syncKannadaDictionary();
+   // Re-parse the definition and lay out ONLY page `page` into layoutLines,
+   // discarding other pages as they are produced; also recomputes totalPages.
+   void loadPage(int page);
+--- DictionaryDefinitionActivity.cpp	2026-10-13 20:39:42
++++ src/activities/reader/DictionaryDefinitionActivity.cpp	2026-10-13 20:41:02
+@@ -19,6 +19,7 @@
+ 
+ #include "../settings/DictionarySelectActivity.h"
+ #include "CrossPointSettings.h"
++#include "KannadaReading.h"
+ #include "MappedInputManager.h"
+ #include "Memory.h"
+ #include "SdCardFontSystem.h"
+@@ -363,11 +364,30 @@
+     // restoreReaderFont() does not switch IDs. Release the definition caches
+     // explicitly so that path does not retain dictionary-only glyph data.
+     renderer.releaseSdCardFontForLowMemory(definitionFontId_);
++  }
++  if (kannadaDictionary_) {
++    kannadareading::endDictionary(renderer);
++    kannadaDictionary_ = false;
+   }
+   sdFontSystem.restoreReaderFont(renderer);
+   Activity::onExit();
+ }
+ 
++void DictionaryDefinitionActivity::syncKannadaDictionary() {
++  if (foundLocation.folderPath != kannadaCheckedPath_) {
++    kannadaCheckedPath_ = foundLocation.folderPath;
++    const DictInfo info = Dictionary::readInfo(foundLocation.folderPath.c_str());
++    const bool kannada = strstr(info.lang, "kn") != nullptr || strstr(info.bookname, "Kannada") != nullptr;
++    if (kannada && !kannadaDictionary_) {
++      kannadaDictionary_ = kannadareading::beginDictionary();
++    } else if (!kannada && kannadaDictionary_) {
++      kannadareading::endDictionary(renderer);
++      kannadaDictionary_ = false;
++    }
++  }
++  if (kannadaDictionary_) kannadareading::dictionaryFont(getDefinitionFontId());
++}
++
+ int DictionaryDefinitionActivity::getDefinitionFontId(bool) const {
+   return definitionFontId_ != 0 ? definitionFontId_ : SETTINGS.getReaderFontId();
+ }
+@@ -540,6 +560,7 @@
+ 
+   // Match the folder-name label shown by DictionarySelectActivity.
+   dictionaryName_ = dictionaryNameFromPath(foundLocation.folderPath);
++  syncKannadaDictionary();
+ 
+   const auto orient = renderer.getOrientation();
+   const auto metrics = UITheme::getInstance().getMetrics();
+--- Dictionary.cpp	2026-10-14 12:00:20
++++ src/util/Dictionary.cpp	2026-10-14 12:00:35
+@@ -1086,11 +1086,45 @@
+ // ---------------------------------------------------------------------------
+ // Stemming
+ // ---------------------------------------------------------------------------
++
++// Kannada words in a book carry case and verb endings (ಪಿತೃಗಳನ್ನು, ಕಣ್ಣಿನ,
++// ಮಾಡುತ್ತಾನೆ); a dictionary lists ಪಿತೃ, ಕಣ್ಣು, ಮಾಡು. Try the word with letters
++// dropped from the end, longest first, and where it then ends in a bare
++// consonant also with ು (ಕಣ್ಣ -> ಕಣ್ಣು), the usual dictionary form.
++static std::vector<std::string> kannadaStemVariants(const std::string& word) {
++  std::vector<std::string> variants;
++  std::vector<size_t> ends;  // byte offset just after each codepoint
++  std::vector<uint32_t> cps;
++  const auto* p = reinterpret_cast<const unsigned char*>(word.c_str());
++  const auto* start = p;
++  uint32_t cp;
++  while ((cp = utf8NextCodepoint(&p))) {
++    cps.push_back(cp);
++    ends.push_back(static_cast<size_t>(p - start));
++  }
++  constexpr size_t kMinLetters = 2;
++  constexpr size_t kMaxVariants = 40;
++  for (size_t n = cps.size(); n-- > kMinLetters && variants.size() < kMaxVariants;) {
++    const uint32_t last = cps[n - 1];
++    std::string prefix = word.substr(0, ends[n - 1]);
++    const bool bareConsonant = (last >= 0x0C95 && last <= 0x0CB9) || last == 0x0CDE;
++    if (bareConsonant) variants.push_back(prefix + "\xE0\xB3\x81");  // + ು
++    variants.push_back(std::move(prefix));
++  }
++  return variants;
++}
+ 
+ std::vector<std::string> Dictionary::getStemVariants(const std::string& word) {
++  // Kannada (U+0C80..U+0CFF is E0 B2/B3 xx in UTF-8) has its own endings.
++  for (size_t i = 0; i + 1 < word.size(); ++i) {
++    if (static_cast<unsigned char>(word[i]) == 0xE0 &&
++        (static_cast<unsigned char>(word[i + 1]) == 0xB2 || static_cast<unsigned char>(word[i + 1]) == 0xB3)) {
++      return kannadaStemVariants(word);
++    }
++  }
+   // These are deliberately English morphology rules. Applying them to UTF-8
+   // text can manufacture meaningless variants from another language, so
+-  // non-ASCII words use exact and StarDict synonym lookup only.
++  // other non-ASCII words use exact and StarDict synonym lookup only.
+   if (std::any_of(word.begin(), word.end(), [](const unsigned char c) { return c >= 0x80; })) return {};
+ 
+   std::string normalized = word;
